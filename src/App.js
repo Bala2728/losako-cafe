@@ -7,7 +7,6 @@ import Dashboard  from './pages/Dashboard';
 import Billing    from './pages/Billing';
 import Orders     from './pages/Orders';
 import Products   from './pages/Products';
-import Categories from './pages/Categories';
 import Customers  from './pages/Customers';
 import Reports    from './pages/Reports';
 import Expenses   from './pages/Expenses';
@@ -20,7 +19,6 @@ const PAGES = {
   billing:    <Billing />,
   orders:     <Orders />,
   products:   <Products />,
-  // categories: <Categories />,
   customers:  <Customers />,
   reports:    <Reports />,
   expenses:   <Expenses />,
