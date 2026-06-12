@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+:root {
+  --brown-dark:   #2C1A0E;
+  --brown-mid:    #5C3317;
+  --brown-warm:   #8B4513;
+  --orange-main:  #D4621A;
+  --orange-light: #E8844A;
+  --cream:        #F5ECD7;
+  --cream-light:  #FBF6ED;
+  --beige:        #E8D5B0;
+  --black:        #1A0F07;
+  --text-muted:   #8B7355;
+  --sidebar-w:    240px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--cream-light);
+  color: var(--brown-dark);
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, .brand-font {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: var(--cream); }
+::-webkit-scrollbar-thumb { background: var(--beige); border-radius: 10px; }
+
+/* Keyframe for toast */
+@keyframes slideIn {
+  from { opacity:0; transform: translateX(30px); }
+  to   { opacity:1; transform: translateX(0); }
+}
