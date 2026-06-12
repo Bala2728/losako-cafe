@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { setViewMode, setSelectedBill, deleteBill, updateBillStatus, setSearchQuery, setStatusFilter } from '../../store/slices/billingSlice';
+import { setViewMode, setSelectedBill, deleteBill, setSearchQuery, setStatusFilter } from '../../store/slices/billingSlice';
 import { showToast } from '../../store/slices/uiSlice';
 
 const STATUS_STYLE = {
